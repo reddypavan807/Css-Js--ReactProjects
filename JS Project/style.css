@@ -1,0 +1,36 @@
+section{
+    min-height: calc(100vh - 80px);
+    display: grid;
+    place-items: center;
+}
+.container{
+    text-align: center;
+}
+
+.container h2{
+    background-color: black;
+    color: #fff;
+    padding : 25px;
+    margin-bottom: 2.5rem;
+    
+}
+
+.color{
+    color: rgba(47, 136, 225, 0.734);
+}
+
+.btn-hero{
+    padding: 17px 40px;
+    font-size: larger ;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 0.1em;
+
+}
+
+.btn-hero:hover{
+    color: #fff;
+    background: #222;
+}
